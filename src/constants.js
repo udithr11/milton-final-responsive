@@ -1,0 +1,6 @@
+export const avatar_logo1="https://embed.praisehive.com/_next/image?url=https%3A%2F%2Ferjukccmfwgrykahexaz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftestimonials%2Fprofile-pictures%2Fcldxqmfq80000xh0kpiricp1k-sj8ak17KXyquuDYyeix1nemAa&w=96&q=75"
+export const avatar_logo2="https://embed.praisehive.com/_next/image?url=https%3A%2F%2Ferjukccmfwgrykahexaz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftestimonials%2Fprofile-pictures%2Fcldxqmfq80000xh0kpiricp1k-kFXqOOYjOqSQ9Fl9Vf2NJGXTK&w=96&q=75"
+export const avatar_logo3="https://embed.praisehive.com/_next/image?url=https%3A%2F%2Ferjukccmfwgrykahexaz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftestimonials%2Fprofile-pictures%2Fcldxqmfq80000xh0kpiricp1k-4c95QsaMYVeR0tWzfJoOIHedy&w=96&q=75"
+export const avatar_logo4="https://embed.praisehive.com/_next/image?url=https%3A%2F%2Ferjukccmfwgrykahexaz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftestimonials%2Fprofile-pictures%2Fcldxqmfq80000xh0kpiricp1k-I0dvf6t645PsqG2eDIdfnM2EL&w=96&q=75"
+export const avatar_logo5="https://embed.praisehive.com/_next/image?url=https%3A%2F%2Ferjukccmfwgrykahexaz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftestimonials%2Fprofile-pictures%2Fcldxqmfq80000xh0kpiricp1k-M6zZKJXDKYEmQGdPehWL5zuf5&w=96&q=75"
+export const features_last="https://framerusercontent.com/images/eOkQipcAuByHjPvicAhsR8PzC0.png"

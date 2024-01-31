@@ -1,13 +1,60 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fp{
+  width: 85%;
+
+} 
+.fp_text1{
+  margin-top:80px;
+  font-size:14px;
+  
+
+} 
+.fp_text2{
+font-size: 40px;
+font-weight:800;
+}
+.fp_text3
+{
+  font-size: 16px;
+}
+
+.desktop_br_1{
+  display:none;
+}
+
+.fp_img {
+  cursor: pointer;
+}
+
+.fp_img:hover img {
+  content: url(https://embed.praisehive.com/_next/static/media/icon.12c4bb6f.svg);
+}
+
+
+@media screen and (min-width: 900px) {
+
+  .fp_text2{
+    font-size: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+     }
+     .mobile_br_1{
+      display: none; 
+  }
+
+  .desktop_br_1{
+    display:flex;
+  }
+     .fp_text3
+{
+  font-size: 20px;
+} 
 }
