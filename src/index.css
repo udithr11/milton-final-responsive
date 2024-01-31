@@ -9,12 +9,12 @@ body {
   width: 85%;
 
 } 
+
 .fp_text1{
   margin-top:80px;
   font-size:14px;
-  
+  }
 
-} 
 .fp_text2{
 font-size: 40px;
 font-weight:800;
@@ -36,7 +36,45 @@ font-weight:800;
   content: url(https://embed.praisehive.com/_next/static/media/icon.12c4bb6f.svg);
 }
 
+.features_master{
+  width:85%;
+}
+.features_text1{
+  font-size:14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 
+}
+
+.features_text2{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+
+  font-size:32px;
+  font-weight:800;
+  
+}
+
+
+
+
+.features_small_text1 p{
+  font-size: 14px;
+  font-weight: 700;
+
+}
+.features_small_text2{
+  font-size: 28px;
+  font-weight: 800;
+
+}
+.features_small_text3{
+  font-size: 20px;
+}
+.feature_calender_mobile{
+  display:none;
+}
+/* .features_small_text4_container{
+  width:fit-content;
+} */
 @media screen and (min-width: 900px) {
 
   .fp_text2{
@@ -57,4 +95,16 @@ font-weight:800;
 {
   font-size: 20px;
 } 
+.features_main{
+  display:flex
+}
+.features_small_text_container{
+  width:50%;
+}
+.feature_calender{
+  width:50%;
+}
+.feature_calender_desktop{
+  display:none;
+}
 }
