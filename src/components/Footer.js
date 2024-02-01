@@ -3,8 +3,8 @@ import { twitter, linkedin, fb } from "../constants";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-300">
-      <div className="flex justify-center -mx-11">
+    <div className="bg-gray-300 ">
+      <div className="flex justify-center ">
         <div className="w-[80%]  mx-auto  ">
           <div className=" mt-3 flex  cursor-pointer ">
           <div className="flex items-center ">

@@ -10,7 +10,7 @@ function Header() {
       setNavOpen(!isNavOpen);
     };
   return (
-    <div className="w-full h-[80px] custom_colour_full flex justify-center  items-center border-b z-10 border-gray-300">
+    <div className="w-full h-[80px] custom_colour_full flex  justify-center  items-center border-b  border-gray-300">
     <div className="header_container  justify-between ">
       <div className="flex items-center ">
         <svg className="w-6 h-6 bg-gray-100 rounded-md" viewBox="0 0 24 24">
@@ -22,7 +22,7 @@ function Header() {
 
       {isNavOpen ? (
         <div
-          className={`nav-links font-bold  flex flex-col items-center transform origin-center opacity-100  ${
+          className={`nav-links font-bold cursor-pointer flex flex-col items-center transform origin-center opacity-100  ${
             isNavOpen ? "open" : ""
           }`}
         >

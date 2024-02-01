@@ -4,7 +4,7 @@ import {logo_last} from '../constants'
 
 const Faqs = () => {
   return (
-    <div className="features_master  mx-auto     ">
+    <div className="features_master mx-auto     ">
       <div>
         <div className="flex  justify-center">
           <div className="features_text1 font-bold flex justify-center bg-gray-100 rounded-full p-2 w-52 text-center">
