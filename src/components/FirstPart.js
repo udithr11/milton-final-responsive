@@ -12,7 +12,7 @@ import Rating from "../utils/Rating";
 const FirstPart = () => {
   return (
     
-    <div className="fp pt-20 mx-auto items-center bg-red-100">
+    <div className="fp pt-20 mx-auto items-center ">
       <div className="flex justify-center">
         <div className="fp_text1 font-bold flex justify-center bg-gray-100 rounded-full p-1 w-64 text-center">
           An other way to manage time
@@ -31,7 +31,7 @@ const FirstPart = () => {
       </p>
 
       <div className="flex justify-center py-10">
-        <button className="bg-slate-800  text-white z-10 font-bold py-4 px-6 rounded-xl transition-transform transform-gpu  hover:shadow-md hover:scale-110">
+        <button className="bg-slate-800  text-white font-bold py-4 px-6 rounded-xl transition-transform   hover:shadow-md hover:scale-110">
           Get Started,it's free
         </button>
       </div>
@@ -80,7 +80,7 @@ const FirstPart = () => {
         </div>
       </div>
 
-      <img  alt="feature_last" src={features_last} className="flex items-center rounded-2xl border border-slate-200 mt-20 justify-center"/>
+      <img  alt="feature_last" src={features_last} className="flex items-center rounded-xl border border-slate-200 mt-20 justify-center"/>
       </div>
   )
 }

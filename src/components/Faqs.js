@@ -4,7 +4,7 @@ import {logo_last} from '../constants'
 
 const Faqs = () => {
   return (
-    <div className="features_master  mx-auto     bg-red-100">
+    <div className="features_master  mx-auto     ">
       <div>
         <div className="flex  justify-center">
           <div className="features_text1 font-bold flex justify-center bg-gray-100 rounded-full p-2 w-52 text-center">
@@ -38,7 +38,7 @@ const Faqs = () => {
         
       </p>
       <div className="flex justify-center py-10">
-        <button className="bg-slate-800  text-white z-10 font-bold py-4 px-6 rounded-xl transition-transform transform-gpu  hover:shadow-md hover:scale-110">
+        <button className="bg-slate-800  text-white  font-bold py-4 px-6 rounded-xl transition-transform   hover:shadow-md hover:scale-110">
           Get Started,it's free
         </button>
       </div>
@@ -59,7 +59,7 @@ const Faqs = () => {
     <img alt="avatarLogo6" src={logo_last} className="h-20 w-20" />
   </div>
 </div>
-<div className='w-[85%] mx-auto items-center h-32 bg-red-100'></div>
+<div className='about_us w-[85%] mx-auto items-center h-32 '></div>
 
       </div>
   )

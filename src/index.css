@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: rgb(254, 249, 246);
+
   font-family: 'Plus Jakarta Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -142,5 +144,10 @@ display: flex;
 .pricing_parts{
   width:33.3333%
 }
-
+.testimonial_main{
+  display:flex;
+}
+.testimonial_part{
+  width:50%;
+}
 }

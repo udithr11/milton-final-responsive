@@ -10,7 +10,7 @@ function Header() {
       setNavOpen(!isNavOpen);
     };
   return (
-    <div className="w-full h-[80px] custom_colour_full flex justify-center  items-center border-b  border-gray-300">
+    <div className="w-full h-[80px] custom_colour_full flex justify-center  items-center border-b z-10 border-gray-300">
     <div className="header_container  justify-between ">
       <div className="flex items-center ">
         <svg className="w-6 h-6 bg-gray-100 rounded-md" viewBox="0 0 24 24">
@@ -22,11 +22,11 @@ function Header() {
 
       {isNavOpen ? (
         <div
-          className={`font-semibold flex flex-col items-center transform origin-center opacity-100 nav-links ${
+          className={`nav-links font-bold  flex flex-col items-center transform origin-center opacity-100  ${
             isNavOpen ? "open" : ""
           }`}
         >
-          <Link to="features" smooth={true} duration={500}>
+          <Link  to="features" smooth={true} duration={500}>
             Features
           </Link>
           <Link to="testimonials" smooth={true} duration={500}>
@@ -36,11 +36,12 @@ function Header() {
             Pricing
           </Link>
           <Link to="faq" smooth={true} duration={500}>
-            FAQ
+          FAQs
           </Link>
-          <Link to="blog" smooth={true} duration={500}>
-            Blog
-          </Link>
+          <Link to="about_us" className="p-2 cursor-pointer">
+              About Us
+            </Link>
+          
 
           <div className={`two_buttons ${isNavOpen ? "open" : ""}`}>
             <button className="bg-gray-100   font-bold py-2 px-4 rounded-xl  transition-transform transform-gpu hover:bg-gray-200 hover:shadow-md hover:scale-110">
@@ -53,7 +54,7 @@ function Header() {
         </div>
       ) : (
         <div className="header_links w-full flex  items-center justify-between  h-10">
-          <div className="flex-1 flex justify-center font-semibold text-gray-500  space-x-2">
+          <div className="flex-1 flex justify-center font-extrabold text-gray-500  space-x-2">
             <Link to="features" className="p-2 cursor-pointer">
               Features
             </Link>
@@ -66,8 +67,8 @@ function Header() {
             <Link to="faqs" className="p-2 cursor-pointer">
               FAQs
             </Link>
-            <Link to="blogs" className="p-2 cursor-pointer">
-              Blogs
+            <Link to="about_us" className="p-2 cursor-pointer">
+              About Us
             </Link>
           </div>
           <div className="flex  items-center ml-2">

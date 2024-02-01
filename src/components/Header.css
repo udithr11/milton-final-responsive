@@ -2,7 +2,7 @@
     background-color: rgb(254, 249, 246);
     font-family: 'Plus Jakarta Sans', sans-serif;
     position:fixed;
-    z-index: 1000;
+    z-index: 1005;
 
 }
 
@@ -12,8 +12,10 @@
     height: 40px;
     align-items: center;
     background-color: rgb(254, 249, 246);
+    z-index: 1005;
 
   }
+ 
   
 
   .cross-icon {
@@ -67,7 +69,7 @@
         background-color: rgb(254, 249, 246);
         font-family: 'Plus Jakarta Sans', sans-serif;
         position:fixed;
-        z-index: 1002;
+        z-index: 1000;
     
     }
         .nav-links {
@@ -80,15 +82,17 @@
         }
       
         .nav-links.open {
-
           display: flex;
           flex-direction: column;
           align-items: center;
           margin-top: 5px; 
+          background-color: rgb(254, 249, 246);
+
         }
       
         .nav-links.open a {
             margin-top: 15px;
+            font-weight: 800;
 
           padding: 5px;
         }

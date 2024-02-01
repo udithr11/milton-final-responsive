@@ -16,7 +16,7 @@ const Pricing = () => {
 
 
   return (
-    <div className="w-[85%]  mx-auto     bg-red-100">
+    <div className="w-[85%]  mx-auto     ">
       <div>
         <div className="flex  justify-center">
           <div className="features_text1 font-bold flex justify-center bg-gray-100 rounded-full p-2 w-52 text-center">
@@ -31,7 +31,7 @@ const Pricing = () => {
 
         <div className="mt-5" >
         <div className="mt-[200px] flex items-center justify-center">
-          <div className="font-bold items-centerrounded-full p-2 h-10 rounded-xl text-center -mt-20 bg-gray-300" >
+          <div className="font-bold items-center  p-2 h-10 rounded-xl text-center -mt-20 bg-gray-300" >
             <button
               className="m-3"
               onClick={() => {
@@ -84,7 +84,7 @@ const Pricing = () => {
             <p className="text-gray-800 font-semibold">Free for ever</p>
 
             <div className="flex justify-center  py-10">
-              <button className="bg-slate-800 w-[345px]  text-white font-extrabold py-4 px-6 rounded-xl transition-transform transform-gpu  hover:shadow-md hover:scale-110">
+              <button className="bg-slate-800 w-[345px]  text-white font-extrabold py-4 px-6 rounded-xl transition-transform   hover:shadow-md hover:scale-110">
                 Get Started
               </button>
             </div>
@@ -154,7 +154,7 @@ const Pricing = () => {
 
 
             <div className="flex justify-center  py-10">
-              <button className="bg-slate-800 w-[345px] text-white font-bold py-4 px-6 rounded-xl transition-transform transform-gpu  hover:shadow-md hover:scale-110">
+              <button className="bg-slate-800 w-[345px] text-white font-bold py-4 px-6 rounded-xl transition-transform   hover:shadow-md hover:scale-110">
                 Get Started
               </button>
             </div>
@@ -225,7 +225,7 @@ const Pricing = () => {
 
 
             <div className="flex justify-center  py-10">
-              <button className="bg-slate-800 w-[345px] text-white font-bold py-4 px-6 rounded-xl transition-transform transform-gpu  hover:shadow-md hover:scale-110">
+              <button className="bg-slate-800 w-[345px] text-white font-bold py-4 px-6 rounded-xl transition-transform   hover:shadow-md hover:scale-110">
                 Get Started
               </button>
             </div>

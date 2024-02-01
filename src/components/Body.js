@@ -2,21 +2,24 @@ import React from 'react'
 import Faqs from './Faqs'
 import Features from './Features'
 import FirstPart from './FirstPart'
+import Footer from './Footer'
 import Pricing from './Pricing'
 import Testimonial from './Testimonial'
 
 const Body = () => {
   return (
     <div>
+     
         <FirstPart/>
-        <div className='w-[85%] mx-auto items-center h-48 bg-red-100'></div>
+        <div className='features w-[85%] mx-auto items-center h-48 '></div>
         <Features/>
-        <div className='w-[85%] mx-auto items-center h-48 bg-red-100'></div>
+        <div className='testimonial w-[85%] mx-auto items-center h-48 '></div>
         <Testimonial/>
-        <div className='w-[85%] mx-auto items-center h-48 bg-red-100'></div>
+        <div className='pricing w-[85%] mx-auto items-center h-48 '></div>
         <Pricing/>
-        <div className='w-[85%] mx-auto items-center h-48 bg-red-100'></div>
+        <div className='faqs w-[85%] mx-auto items-center h-48 '></div>
         <Faqs/>
+        <Footer/>
     </div>
   )
 }
