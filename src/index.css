@@ -72,9 +72,11 @@ font-weight:800;
 .feature_calender_mobile{
   display:none;
 }
-/* .features_small_text4_container{
-  width:fit-content;
-} */
+.desktop_br_1{
+  display:none;
+}
+
+
 @media screen and (min-width: 900px) {
 
   .fp_text2{
@@ -106,5 +108,28 @@ font-weight:800;
 }
 .feature_calender_desktop{
   display:none;
+}
+.feature_last_section{
+display: flex;
+}
+.feature_last_section_calender{
+  width:33.3333%;
+}
+.feature_last_last1{
+  margin-right: 6px;
+}
+.feature_last_last2{
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.feature_last_last3{
+  margin-left:6px;
+}
+
+.pricing_main{
+  display: flex;
+}
+.pricing_parts{
+  width:33.3333%
 }
 }
