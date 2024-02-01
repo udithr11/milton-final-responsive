@@ -1,4 +1,5 @@
 import React from 'react'
+import Faqs from './Faqs'
 import Features from './Features'
 import FirstPart from './FirstPart'
 import Pricing from './Pricing'
@@ -14,6 +15,8 @@ const Body = () => {
         <Testimonial/>
         <div className='w-[85%] mx-auto items-center h-48 bg-red-100'></div>
         <Pricing/>
+        <div className='w-[85%] mx-auto items-center h-48 bg-red-100'></div>
+        <Faqs/>
     </div>
   )
 }

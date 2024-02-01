@@ -31,7 +31,7 @@ const Pricing = () => {
 
         <div className="mt-5" >
         <div className="mt-[200px] flex items-center justify-center">
-          <div className="font-bold items-centerrounded-full p-2 h-10 rounded-xl text-center -mt-20" style={{backgroundColor:'rgb(243, 243, 243)'}}>
+          <div className="font-bold items-centerrounded-full p-2 h-10 rounded-xl text-center -mt-20 bg-gray-300" >
             <button
               className="m-3"
               onClick={() => {
