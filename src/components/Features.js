@@ -51,7 +51,7 @@ const Features = () => {
               just a few clicks.
             </p>
 
-            <div className="features_small_text4_container font-bold bg-zinc-800 ml-20 w-64 mt-[50px] text-center p-3 rounded-t-2xl rounded-br-2xl rounded-bl-sm ">
+            <div className="features_small_text4_container font-bold bg-zinc-800 ml-auto w-64 mt-[50px] text-center p-3 rounded-t-2xl rounded-br-2xl rounded-bl-sm ">
               <p className="text-white text-left">
                 I love how user-friendly this
                 <br className="mobile_br_1" /> app is! It's so easy to add
@@ -144,7 +144,7 @@ const Features = () => {
               just a few clicks.
             </p>
 
-            <div className="features_small_text4_container font-bold bg-zinc-800 ml-20 w-64 mt-[50px] text-center p-3 rounded-t-2xl rounded-br-2xl rounded-bl-sm ">
+            <div className="features_small_text4_container font-bold bg-zinc-800 ml-auto w-64 mt-[50px] text-center p-3 rounded-t-2xl rounded-br-2xl rounded-bl-sm ">
               <p className="text-white text-left">
                 I've tried a lot of calendar apps, but this one
                 <br className="mobile_br_1" /> is by far the best! It's so
