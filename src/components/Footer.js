@@ -28,7 +28,7 @@ const Footer = () => {
               <p className=" text-end text-gray-500">
                 All rights will be received by this Sunday!
               </p>
-              <p className=" text-end text-gray-500">Created by John Kattadi</p>
+              <p className=" text-end text-gray-500">Created by uditH</p>
             </div>
           </div>
         </div>
